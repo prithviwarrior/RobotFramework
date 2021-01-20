@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/Magento_Suite/Login_Tests.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/Magento_Suite/WebAutomation.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.project.editor.activePage.SeleniumProject">
+		<item key="activePage" value="LibrariesProjectConfigurationEditorPart"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/OpenEMR/Login_Test.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/HDFC/Test_Input.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/RedBus/TestLogin.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/MediBuddy/Register.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/GoToMeeting/SignUp.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/Jcpenny/Search.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/DB4Free/phpLogin.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/CitiBank/CreditCard.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/EchoEcho/JavaScript.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/OpenEMR/AddPatient_Test.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/RoyalCaribbean/Create_User.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/Google/TotalLinks.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/phpTravels/FlightBooking.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/Databases/Table_Test.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/verify_Valid_Credentials.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/Verify_Valid_Credentials.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/Verify_Invalid_Credentials.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/LoginSuite/Verify_Valid_Credentials.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/LoginSuite/Verify_Invalid_Credentials.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/Resources/common_functionality.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/Datatables/Table_Test.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="problemPreferences">
+		<item key="CODE_STYLE" value="true"/>
+		<item key="RUNTIME" value="true"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/Resources/Pages/LoginPage.resource">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/Resources/Pages/DashboardPage.resource">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/PatientSuite/Verify_Add_Patient.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/Resources/Pages/PatientFinderPage.resource">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/Resources/Pages/SearchOrAddPatient.resource">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/LoginSuite/Verify_Invalid_Credential_with_Excel.robot">
+		<item key="activePage" value=""/>
+	</section>
+</section>

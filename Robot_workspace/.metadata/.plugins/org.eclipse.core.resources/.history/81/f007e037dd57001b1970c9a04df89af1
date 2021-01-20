@@ -1,0 +1,18 @@
+*** Settings ***
+Library    OperatingSystem    
+Library    SeleniumLibrary    
+
+*** Test Cases ***
+
+TC1_ElementDetails
+    Append To Environment Variable    Path    ${OUTPUT_DIR}${/}driver
+    Open Browser    url=http://www.google.com/    browser=ff
+    Maximize Browser Window
+    ${linkcount}    Get Element Count    //a
+    Log To Console    ${linkcount}    
+    
+    ${text}    Get Text   (//a)[2]
+    Log To Console    ${text}   
+    
+     
+    

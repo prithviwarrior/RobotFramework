@@ -1,0 +1,67 @@
+1610516503803	geckodriver	INFO	Listening on 127.0.0.1:65404
+1610516506815	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CTEA\\AppData\\Local\\Temp\\rust_mozprofileOjZegH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610516512225	Marionette	INFO	Listening on port 65412
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610516512559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610516512611	Marionette	ERROR	[17] No reply from Marionette:Register
+JavaScript error: https://magento.com/ line 1551 > injectedScript, line 4: TypeError: window.optimizely is undefined
+JavaScript error: https://magento.com/sites/default/files8/js/optimized/js_6PLu4riE-2dcDQ5QPzuCrl_1JQZAazd43aQw_AQJYoY.NROEkYn4usvpqyPEG8aHOOdMITfAvO-0w6gjNNafhMw.js?qleaka, line 8: TypeError: id is undefined
+1610516530271	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+[Child 11104, MediaDecoderStateMachine #1] WARNING: 16adac00 OpenCubeb() failed to init cubeb: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:334
+[Child 11104, MediaDecoderStateMachine #1] WARNING: Decoder=1db6a9b0 [OnMediaSinkAudioError]: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3886
+JavaScript error: https://account.magento.com/customer/account/login?_ga=2.164208703.1427019443.1610516518-299587138.1610516518, line 407: SyntaxError: redeclaration of const ssoEmailDomains
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/jquery/jquery.validate.js, line 556: TypeError: $.validator.methods[method] is undefined
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/jquery/jquery.validate.js, line 556: TypeError: $.validator.methods[method] is undefined
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/jquery/jquery.validate.js, line 556: TypeError: $.validator.methods[method] is undefined
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/jquery/jquery.validate.js, line 556: TypeError: $.validator.methods[method] is undefined
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/jquery/jquery.validate.js, line 556: TypeError: $.validator.methods[method] is undefined
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/core/renderer/layout
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Company/js/validation
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_CompanyCredit/js/validation
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Customer/js/customer-data
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Persistent/js/view/customer-data-mixin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/core/renderer/types
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: jquery-ui-modules/button
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: jquery-ui-modules/draggable
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: jquery-ui-modules/position
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: text
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/key-codes
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/template/engine
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/bootstrap
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/extender/observable_array
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/extender/bound-nodes
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: loadicons/index
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: mage/apply/scripts
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: jquery-ui-modules/resizable
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: jquery-ui-modules/core
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/static/version20210112162518/frontend/McStore/base/en_US/requirejs/require.js, line 166: Error: Script error for: mage/collapsible
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://account.magento.com/customer/account/login/, line 407: SyntaxError: redeclaration of const ssoEmailDomains
+1610520534991	Marionette	INFO	Stopped listening on port 65412
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

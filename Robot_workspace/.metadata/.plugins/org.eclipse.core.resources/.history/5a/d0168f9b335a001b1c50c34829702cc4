@@ -1,0 +1,28 @@
+*** Settings ***
+Documentation    This file deals with all operations in the dashboard page
+
+Resource    ../common_functionality.robot
+
+*** Variables ***
+${NAME_LOC}    //span[@data-bind="text:fname"]
+${LOGOUT_LOC}    //li[text()='Logout]
+${PATIENT_LOC}    //div[text()='Patient/Client']
+${LOGOUT_LOC}    //li[text()='Logout]
+
+
+*** Keywords ***
+
+Dashboard Page Should Contain
+    [Arguments]    ${pagetext}
+    Page Should Contain    ${pagetext}    
+
+MouseOver On Name
+    Mouse Over    ${NAME_LOC}
+
+
+Click Logout
+    Click Element    ${LOGOUT_LOC}    
+    
+
+MouseOver on Patient_Client
+    Mouse Over    locator

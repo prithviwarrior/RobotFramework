@@ -1,0 +1,4 @@
+1610967855302	Rename resource 'verify_Valid_Credentials.robot'
+1610968613464	Rename resource 'resources'
+1610968716553	Move 'Verify_Invalid_Credentials.robot' to 'LoginSuite'
+1610968729240	Move 'Verify_Valid_Credentials.robot' to 'LoginSuite'

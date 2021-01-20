@@ -1,0 +1,15 @@
+1610531761492	geckodriver	INFO	Listening on 127.0.0.1:52220
+1610531764469	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CTEA\\AppData\\Local\\Temp\\rust_mozprofile5SbbQV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610531769291	Marionette	INFO	Listening on port 52232
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610531769715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610531769761	Marionette	ERROR	[17] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://www.gstatic.com/recaptcha/releases/qc5B-qjP0QEimFYUxcpWJy5B/recaptcha__en.js, line 317: Error: reCAPTCHA placeholder element must be an element or id
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.redbus.in"
+1610532234519	Marionette	INFO	Stopped listening on port 52232
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

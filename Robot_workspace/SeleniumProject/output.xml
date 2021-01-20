@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.9 on win32)" generated="20210118 14:47:27.287" rpa="false">
+<suite id="s1" name="SeleniumProject" source="C:\Users\CTEA\eclipse-workspace\Robot_Framework\Robot_workspace\SeleniumProject">
+<suite id="s1-s1" name="Databases" source="C:\Users\CTEA\eclipse-workspace\Robot_Framework\Robot_workspace\SeleniumProject\Databases">
+<suite id="s1-s1-s1" name="Table Test" source="C:\Users\CTEA\eclipse-workspace\Robot_Framework\Robot_workspace\SeleniumProject\Databases\Table_Test.robot">
+<test id="s1-s1-s1-t1" name="TC2_TableHandlingTest">
+<kw name="Append To Environment Variable" library="OperatingSystem">
+<doc>Appends given ``values`` to environment variable ``name``.</doc>
+<arguments>
+<arg>Path</arg>
+<arg>${OUTPUT_DIR}${/}driver</arg>
+</arguments>
+<msg timestamp="20210118 14:47:27.728" level="INFO">Environment variable 'Path' set to value 'C:/Program Files/Java/jdk-15.0.1/bin/server;C:/Program Files/Java/jdk-15.0.1/bin;D:\Python;D:\Python\Scripts;C:\Users\CTEA;D:\Python\Lib;D:\XAMPP\mysql\bin;C:\Program Files\Git\cmd;C:\TDM-GCC-64\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Groovy\bin;C:\Program Files\Java\jdk-15.0.1\bin;D:\Python;D:\Python\Scripts;D:\Python\Lib;D:\XAMPP\mysql\bin;C:\Users\CTEA\AppData\Local\Programs\Microsoft VS Code\bin;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Groovy\bin;C:\WINDOWS\system32;C:\\Program Files\\geckodriver-v0.28.0-win64;;C:\Users\CTEA\Desktop;;C:\Users\CTEA\eclipse-workspace\Robot_Framework\Robot_workspace\SeleniumProject\driver'.</msg>
+<status status="PASS" starttime="20210118 14:47:27.728" endtime="20210118 14:47:27.729"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://datatables.net/extensions/select/examples/initialisation/simple.html</arg>
+<arg>browser=chrome</arg>
+</arguments>
+<msg timestamp="20210118 14:47:27.730" level="INFO">Opening browser 'chrome' to base url 'https://datatables.net/extensions/select/examples/initialisation/simple.html'.</msg>
+<status status="PASS" starttime="20210118 14:47:27.729" endtime="20210118 14:47:39.400"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210118 14:47:39.400" endtime="20210118 14:47:41.879"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:41.879" endtime="20210118 14:47:41.883"></status>
+</kw>
+<kw name="${i} IN RANGE [ 1 | 11 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.053" level="INFO">${name} = Accountant</msg>
+<status status="PASS" starttime="20210118 14:47:41.884" endtime="20210118 14:47:42.053"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.053" endtime="20210118 14:47:42.055"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:41.884" endtime="20210118 14:47:42.055"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.161" level="INFO">${name} = Chief Executive Officer (CEO)</msg>
+<status status="PASS" starttime="20210118 14:47:42.056" endtime="20210118 14:47:42.161"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.162" endtime="20210118 14:47:42.163"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.056" endtime="20210118 14:47:42.163"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.282" level="INFO">${name} = Junior Technical Author</msg>
+<status status="PASS" starttime="20210118 14:47:42.164" endtime="20210118 14:47:42.282"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.282" endtime="20210118 14:47:42.283"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.163" endtime="20210118 14:47:42.283"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.377" level="INFO">${name} = Software Engineer</msg>
+<status status="PASS" starttime="20210118 14:47:42.284" endtime="20210118 14:47:42.377"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.378" endtime="20210118 14:47:42.378"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.283" endtime="20210118 14:47:42.379"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.517" level="INFO">${name} = Software Engineer</msg>
+<status status="PASS" starttime="20210118 14:47:42.379" endtime="20210118 14:47:42.517"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.518" endtime="20210118 14:47:42.518"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.379" endtime="20210118 14:47:42.518"></status>
+</kw>
+<kw name="${i} = 6" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.608" level="INFO">${name} = Integration Specialist</msg>
+<status status="PASS" starttime="20210118 14:47:42.519" endtime="20210118 14:47:42.608"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.609" endtime="20210118 14:47:42.609"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.519" endtime="20210118 14:47:42.610"></status>
+</kw>
+<kw name="${i} = 7" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.713" level="INFO">${name} = Software Engineer</msg>
+<status status="PASS" starttime="20210118 14:47:42.610" endtime="20210118 14:47:42.714"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.714" endtime="20210118 14:47:42.715"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.610" endtime="20210118 14:47:42.715"></status>
+</kw>
+<kw name="${i} = 8" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.840" level="INFO">${name} = Pre-Sales Support</msg>
+<status status="PASS" starttime="20210118 14:47:42.716" endtime="20210118 14:47:42.841"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.841" endtime="20210118 14:47:42.842"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.716" endtime="20210118 14:47:42.842"></status>
+</kw>
+<kw name="${i} = 9" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:42.974" level="INFO">${name} = Sales Assistant</msg>
+<status status="PASS" starttime="20210118 14:47:42.843" endtime="20210118 14:47:42.974"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:42.974" endtime="20210118 14:47:42.975"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.842" endtime="20210118 14:47:42.975"></status>
+</kw>
+<kw name="${i} = 10" type="foritem">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>//table[@id='example']/tbody/tr[${i}]/td[2]</arg>
+</arguments>
+<assign>
+<var>${name}</var>
+</assign>
+<msg timestamp="20210118 14:47:43.080" level="INFO">${name} = Senior Javascript Developer</msg>
+<status status="PASS" starttime="20210118 14:47:42.976" endtime="20210118 14:47:43.080"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${name}</arg>
+</arguments>
+<status status="PASS" starttime="20210118 14:47:43.081" endtime="20210118 14:47:43.081"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:42.975" endtime="20210118 14:47:43.082"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:41.884" endtime="20210118 14:47:43.082"></status>
+</kw>
+<status status="PASS" starttime="20210118 14:47:27.727" endtime="20210118 14:47:43.082" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210118 14:47:27.446" endtime="20210118 14:47:43.084"></status>
+</suite>
+<status status="PASS" starttime="20210118 14:47:27.441" endtime="20210118 14:47:43.087"></status>
+</suite>
+<status status="PASS" starttime="20210118 14:47:27.400" endtime="20210118 14:47:43.090"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="SeleniumProject">SeleniumProject</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Databases">SeleniumProject.Databases</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Table Test">SeleniumProject.Databases.Table Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

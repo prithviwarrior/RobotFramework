@@ -1,0 +1,9 @@
+1610686508289	geckodriver	INFO	Listening on 127.0.0.1:53998
+1610686511301	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CTEA\\AppData\\Local\\Temp\\rust_mozprofilefi146B"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610686515758	Marionette	INFO	Listening on port 54007
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610686516106	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610686516147	Marionette	ERROR	[17] No reply from Marionette:Register
+JavaScript error: https://www.static-jcpenney.com/prod4/yoda-site-components/2018.0.18/dll/site_components.client.dll.js, line 1: TypeError: e is undefined
+1610688887229	Marionette	INFO	Stopped listening on port 54007

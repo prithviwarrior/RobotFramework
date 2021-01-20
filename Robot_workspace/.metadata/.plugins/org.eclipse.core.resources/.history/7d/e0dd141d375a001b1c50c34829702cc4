@@ -1,0 +1,58 @@
+*** Settings ***
+Library    OperatingSystem        
+Library    SeleniumLibrary    
+
+Resource    ../Resources/common_functionality.robot
+Resource    ../Resources/Pages/LoginPage.resource
+Resource    ../Resources/Pages/DashboardPage.resource
+Resource    ../Resources/Pages/PatientFinderPage.resource
+
+*** Test Cases ***
+TC1_ValidCredential
+    Launch Browser
+
+    Enter Username    admin    
+    Enter Password    pass    
+    Select Language    English (Indian)
+    Click Login    
+    Page Should Contain    Flow Board    
+    
+    MouseOver on Patient_Client
+    Click Patient
+    
+    Select Frame    name=fin
+    #Select Frame    xpath=(//iframe[@data-bind="location: $data, iframeName: $data.name, "])[3]
+    Sleep    5s    
+    #Click Element    //button[@id='create_patient_btn1'] 
+    Click Element    create_patient_btn1    
+    Unselect Frame   
+    
+    Select Frame    name=pat
+    Sleep    5s    
+    Input Text    name=form_fname    abchuhghg
+    #Input Text    name="form_mname"    def         
+    Input Text    name=form_lname    ghi4544554
+    Input Text    name=form_DOB    2021-01-16
+    Select From List By Value    form_sex    Male 
+    Click Button    name=create
+    Unselect Frame
+    
+    Select Frame    id=modalframe
+    Sleep    5s    
+    Click Element    //input[@value='Confirm Create New Patient']        
+    Unselect Frame
+    
+    ${AlertTxt}    Handle Alert    
+    Log To Console    ${AlertTxt}  
+    Click Element    //div[@class='closeDlgIframe']      
+   
+
+      
+    Select Frame    pat
+    ${actualval}    Get Text    xpath=//h2[contains(text(),'Record Dashboard')]
+    Log To Console    ${actualval}    
+    
+    Should Contain    ${actualval}    Bob Marley    msg=validation on name
+   
+       
+    

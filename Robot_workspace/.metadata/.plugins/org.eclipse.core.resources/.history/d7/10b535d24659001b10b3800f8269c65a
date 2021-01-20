@@ -1,0 +1,55 @@
+*** Settings ***
+Library    OperatingSystem    
+Library    SeleniumLibrary    
+
+*** Test Cases ***
+
+TC1_ValidCredential
+    Append To Environment Variable    Path    ${OUTPUT_DIR}${/}driver
+    Open Browser    url=https://phptravels.net/    browser=chrome
+    #Maximize Browser Window
+    Set Selenium Implicit Wait    30s
+    
+    #Go To    url=https://phptravels.net/
+
+    Click Element    //a[@class="text-center flights "]
+    Click Element    //a[@class="chosen-single"]   
+     
+    Click Element    //li[text()='Business']
+    Click Element    (//div[@class='select2-input'])[8]    
+    Input Text    (//input[@class='select2-input'])[8]    ewr    
+    Sleep    3s    
+    Click Element    //div[text()='New York (']    
+    
+    #Input Text    locator    text     
+
+
+    Click Element    xpath =//span[text()='LHE']
+    
+    Sleep    5s    
+    Press Keys    None    new york
+    Click Element    xpath=//div[contains(text(),'EWR')]    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

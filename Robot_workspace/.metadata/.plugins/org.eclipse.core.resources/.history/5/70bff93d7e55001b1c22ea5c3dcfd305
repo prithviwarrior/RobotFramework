@@ -1,0 +1,12 @@
+*** Settings ***
+Library    OperatingSystem        
+Library    SeleniumLibrary    
+
+*** Test Cases ***
+TC1_ValidCredential
+    Open Browser    https://netbanking.hdfcbank.com/netbanking/    browser=ff
+    Maximize Browser Window
+    Input Text    name=authUser    admin    
+    
+       
+    

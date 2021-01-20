@@ -1,0 +1,17 @@
+***Settings***
+Documentation    Handle operation related to patient adding
+...    ALl these are present in 
+...    
+
+Resource    ../common_functionality.robot
+
+***Variables***
+${PAT LOCATOR}    pat
+${FIRSTNAME_LOCATOR}    formfirst    
+ 
+***KEYWORDS***
+Switch To Fin Frame
+      Select Frame    ${FIN LOCATOR}
+      
+Click Add New Patient
+      Click Element    ${ADD NEW PATIENT LOCATOR}      

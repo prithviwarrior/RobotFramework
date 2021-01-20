@@ -1,0 +1,18 @@
+1610779517145	geckodriver	INFO	Listening on 127.0.0.1:50950
+1610779520168	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CTEA\\AppData\\Local\\Temp\\rust_mozprofilenxXMGe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610779524326	Marionette	INFO	Listening on port 50977
+1610779524410	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610779524426	Marionette	ERROR	[17] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: https://tags.tiqcdn.com/utag/rccl/gdp/prod/utag.538.js?utv=ut4.46.201910101911, line 5: ReferenceError: KAMPYLE_ONSITE_SDK is not defined
+JavaScript error: https://sb.monetate.net/img/1/388/3250036.js, line 80: TypeError: MutationObserver.observe: Argument 1 is not an object.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610785807088	Marionette	INFO	Stopped listening on port 50977

@@ -1,0 +1,21 @@
+*** Settings ***
+Library    OperatingSystem    
+Library    SeleniumLibrary    
+
+*** Test Cases ***
+
+TC1_TableTest    
+    Append To Environment Variable    Path    ${OUTPUT_DIR}${/}driver
+    Open Browser    https://datatables.net/extensions/select/examples/initialisation/simple.html    browser=chrome
+    Maximize Browser Window
+    Set Selenium Implicit Wait    30s
+    
+    Table Should Contain    xpath=//table[@id='example']    Brenden Wagner    
+    
+    ${cell}    Get Table Cell     xpath=//table[@id='example']    1    2    
+    Log To Console    ${cell}    
+
+    Table Cell Should Contain    xpath=//table[@id='example']    1    2    Name    
+    
+    Table row Should Contain    xpath=//table[@id='example']    1    Age    
+

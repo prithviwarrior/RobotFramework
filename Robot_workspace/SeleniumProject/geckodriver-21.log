@@ -1,0 +1,9 @@
+1610529577066	geckodriver	INFO	Listening on 127.0.0.1:50777
+1610529579914	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CTEA\\AppData\\Local\\Temp\\rust_mozprofilecH4M3J"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610529584577	Marionette	INFO	Listening on port 50785
+1610529584695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610529584866	Marionette	ERROR	[21] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 716: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1610529641709	Marionette	INFO	Stopped listening on port 50785

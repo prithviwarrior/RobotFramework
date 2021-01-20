@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SeleniumProject/Databases&apos; to &apos;Datatables&apos;" description="Rename resource &apos;Databases&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Databases" name="Datatables" stamp="1610969686548" updateReferences="true"/>
+</session>

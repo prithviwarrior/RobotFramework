@@ -1,0 +1,10 @@
+1610530038206	geckodriver	INFO	Listening on 127.0.0.1:51147
+1610530041200	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CTEA\\AppData\\Local\\Temp\\rust_mozprofiler98enH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610530045830	Marionette	INFO	Listening on port 51155
+1610530045938	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610530046015	Marionette	ERROR	[17] No reply from Marionette:Register
+[GFX1-]: D3D11 swap chain preset failed 0x80070057
+[GFX1]: [CompositorD3D11] error code: 0x80070057, 0, 0
+1610530236370	Marionette	INFO	Stopped listening on port 51155

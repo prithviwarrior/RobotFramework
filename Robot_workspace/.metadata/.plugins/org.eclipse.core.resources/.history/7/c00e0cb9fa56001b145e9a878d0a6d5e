@@ -1,0 +1,30 @@
+*** Settings ***
+Library    OperatingSystem        
+Library    SeleniumLibrary    
+
+*** Test Cases ***
+TC1_ValidCredential
+    Append To Environment Variable    Path    ${OUTPUT_DIR}${/}driver
+    Open Browser    https://www.gotomeeting.com/en-in    browser=ff
+    Maximize Browser Window
+    Set Selenium Implicit Wait    10s
+    
+    Run Keyword And Ignore Error    Click Element    xpath=//div[@class="conversion-modal__close"] 
+    
+    Click Element    xpath=//a[@class="button button--primary button--small"]
+    
+    
+    ${actualtitle}     Get Title
+    Log To Console    ${actualtitle}  
+    Log    ${actualtitle}
+    
+    ${currenrturl}    Get Location   
+    Log To Console    ${currenrturl}  
+    Log    ${currenrturl}  
+    
+    
+    
+    
+    
+    
+    

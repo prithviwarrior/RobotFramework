@@ -1,0 +1,25 @@
+1610688657398	geckodriver	INFO	Listening on 127.0.0.1:56474
+1610688660369	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CTEA\\AppData\\Local\\Temp\\rust_mozprofile5QnwkM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610688664598	Marionette	INFO	Listening on port 56501
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610688665118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610688665226	Marionette	ERROR	[21] No reply from Marionette:Register
+JavaScript error: https://www.static-jcpenney.com/prod4/yoda-site-components/2018.0.18/dll/site_components.client.dll.js, line 1: TypeError: e is undefined
+1610688691046	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+c@https://cdn.quantummetric.com/qscripts/quantum-jcp.js:171:210
+send@https://code.jquery.com/jquery-3.4.1.min.js:2:81476
+ajax@https://code.jquery.com/jquery-3.4.1.min.js:2:77295
+postOfferRecord@https://content-jcp.getmetrical.com/js/metrical.abandon.cart.js:1:107212
+saveStateAndSync@https://content-jcp.getmetrical.com/js/metrical.abandon.cart.js:1:115330
+executeEngagementLoop/</<@https://content-jcp.getmetrical.com/js/metrical.abandon.cart.js:1:113461
+jf/Promise.prototype.then/<@https://cdn.quantummetric.com/qscripts/quantum-jcp.js:168:179
+JavaScript error: https://www.static-jcpenney.com/prod4/yoda-assets/vendor/target.js, line 61: Error: Errors: field - [visitorId] - one or more customer Ids in the request are invalid. Null or empty values are not allowed for customer id, integrationCode or authenticatedState.;
+1610688891010	Marionette	INFO	Stopped listening on port 56501
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
