@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;SeleniumProject/Databases&apos; to &apos;Datatables&apos;" description="Rename resource &apos;Databases&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Databases" name="Datatables" stamp="1610969686548" updateReferences="true"/>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;SeleniumProject/Databases&apos; to &apos;Datatables&apos;" description="Rename resource &apos;Databases&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Databases" name="Datatables" stamp="1610969686548" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;SeleniumProject/Naukri/NaukriLogin.robot&apos; to &apos;LoginUploadingFile.robot&apos;" description="Rename resource &apos;NaukriLogin.robot&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Naukri/NaukriLogin.robot" name="LoginUploadingFile.robot" stamp="1611219424336" updateReferences="true"/>
 </session>

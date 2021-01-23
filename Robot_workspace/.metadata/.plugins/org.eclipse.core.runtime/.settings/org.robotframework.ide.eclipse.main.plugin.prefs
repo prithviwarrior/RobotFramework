@@ -2,3 +2,4 @@ eclipse.preferences.version=1
 red.problem.category.AMBIGUOUS_KEYWORD=INFO
 red.problem.category.KEYWORD_FROM_NESTED_LIBRARY=IGNORE
 red.problem.category.RUNTIME_ERROR=INFO
+red.problem.category.UNDECLARED_VARIABLE_USE=INFO

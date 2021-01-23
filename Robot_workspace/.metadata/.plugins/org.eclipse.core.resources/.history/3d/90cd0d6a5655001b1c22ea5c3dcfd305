@@ -1,9 +1,0 @@
-*** Settings ***
-Library    OperatingSystem        
-Library    SeleniumLibrary    
-
-*** Test Cases ***
-TC1_ValidCredential
-    Log To Console    ${OUTPUT_DIR}\\driver    
-    Append To Environment Variable    Path    C:\\Program Files\\geckodriver-v0.28.0-win64    
-    Open Browser    url=https://magento.com/    browser=ff

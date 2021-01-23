@@ -94,4 +94,28 @@
 	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/LoginSuite/Verify_Invalid_Credential_with_Excel.robot">
 		<item key="activePage" value=""/>
 	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/DataBaseSuite/Verify_DB_Details.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/DataBaseSuite/robot_test.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./OpenEMR/DataBaseSuite/robot_test1.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Seleneium_Features_get_suite/test_get_suite.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./SeleniumProject/Naukri/LoginUploadingFile.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/LoginSuite/verify_mageno_login.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/JCPenney/Login_Error_Message.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/KhanAcademy/VerifyKhanAcademy.robot">
+		<item key="activePage" value=""/>
+	</section>
 </section>
