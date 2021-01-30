@@ -41,9 +41,13 @@ TC2_SignUp
     ...    deviceName=redmi
     ...    app=C:\\Users\\CTEA\\eclipse-workspace\\Robot_Framework\\Robot_workspace\\AppiumProject\\app\\Khan Academy_v6.2.1_apkpure.com.apk
     
+    Set Appium Timeout    30s
+
     Click Element    //*[@text='Profile']
-    sleep    3s
+    
+    Wait Until Page Contains Element    //*[@text='Sign up with email']
     Click Element    //*[@text='Sign up with email']
+    
     Sleep    2s    
     Input Text    //*[@text='First name']    Joe
     Input Text    //*[@text='Last name']    Biden
@@ -70,6 +74,15 @@ TC2_SignUp
     Sleep    1s    
     Input Text    //*[@text='Email address']    jbiden@us.com
     Input Password    //*[@text='Password']    uspreSIDEN1
+    
+    Tap    //*    500    1300
+    
+    ${keyboardcheck}    Is Keyboard Shown
+    Run Keyword If    ${keyboardcheck}=True    Hide Keyboard    
+    
+    Press Keycode    keycode   
+    
+    
     
 
     

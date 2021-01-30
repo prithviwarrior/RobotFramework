@@ -1,0 +1,103 @@
+1611731434060	geckodriver	INFO	Listening on 127.0.0.1:55659
+1611731437059	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CTEA\\AppData\\Local\\Temp\\rust_mozprofileDD1cMl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611731442711	Marionette	INFO	Listening on port 55669
+1611731442951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611731443011	Marionette	ERROR	[15] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: https://tags.tiqcdn.com/utag/rccl/gdp/prod/utag.538.js?utv=ut4.46.201910101911, line 5: ReferenceError: KAMPYLE_ONSITE_SDK is not defined
+JavaScript error: https://sb.monetate.net/img/1/388/3292856.js, line 89: TypeError: MutationObserver.observe: Argument 1 is not an object.
+JavaScript error: https://sb.monetate.net/img/1/388/3250036.js, line 80: TypeError: MutationObserver.observe: Argument 1 is not an object.
+JavaScript error: https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js, line 1: Error: Uncaught (in promise): ChunkLoadError: Loading chunk 0 failed.
+(error: https://www.royalcaribbean.com/account/0-es2015.d6842e89f8f7e0506903.js)
+o.e@https://www.royalcaribbean.com/account/runtime-es2015.69ed235520a24ce0fbfb.js:1:1966
+ue@https://www.royalcaribbean.com/account/main-es2015.81a114434e76fe0f07b1.js:1:1964803
+loadModuleFactory@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:949775
+load@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:949517
+getChildConfig/<@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:939114
+_tryNext@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:53959
+_next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:53877
+next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:81620
+r/<@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1044542
+_trySubscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443387
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443195
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:53616
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:53616
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:478345
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+o@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:746065
+_innerSub@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:54143
+_tryNext@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:54038
+_next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:53877
+next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:81620
+_next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1018851
+next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:81620
+r/<@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1044542
+_trySubscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443387
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443195
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1018575
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:53616
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1061582
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:477859
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:686236
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:478345
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1018575
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+o@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:746065
+_innerSub@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:54143
+_tryNext@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:54038
+_next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:53877
+next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:81620
+r/<@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1044542
+_trySubscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443387
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443195
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:53616
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:378501
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:686236
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1018575
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1018575
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1018575
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:478345
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+call@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:1018575
+subscribe@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:443073
+o@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:746065
+_innerSub@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:825192
+_next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:825014
+next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:81620
+notifyNext@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:825491
+_next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:54710
+next@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:81620
+c/</</<@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:639394
+invoke@https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js:1:73767
+onInvoke@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:290759
+invoke@https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js:1:73707
+run@https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js:1:69276
+N/<@https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js:1:80093
+invokeTask@https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js:1:74385
+onInvokeTask@https://www.royalcaribbean.com/account/vendor-es2015.58a60906fc76abfd65d8.js:1:290677
+invokeTask@https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js:1:74306
+runTask@https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js:1:69891
+g@https://www.royalcaribbean.com/account/polyfills-es2015.2bdf6d685805fda5084b.js:1:76330
+b.around/<@https://cdn.appdynamics.com/adrum/adrum-20.5.0.3144.js:29:163
+
+JavaScript error: https://sb.monetate.net/img/1/388/3292856.js, line 89: TypeError: MutationObserver.observe: Argument 1 is not an object.
+JavaScript error: https://sb.monetate.net/img/1/388/3250036.js, line 80: TypeError: MutationObserver.observe: Argument 1 is not an object.
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:332:29
+
+[Parent 7808, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

@@ -118,4 +118,28 @@
 	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/KhanAcademy/VerifyKhanAcademy.robot">
 		<item key="activePage" value=""/>
 	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/1mg/Purshace.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/1mg/Purshace1mg.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/KhanAcademy/Scroll_And_Swipe.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/myTS/verify_myTS_app.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/Notepad/Verify_Notepad.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./AppiumProject/KhanAcademyCloud/Verify_Khan_In_Cloud_Environment.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Seleneium_Features_get_suite/SignUp_tests.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Appium99003123/CarInfo/Verify_CarInfo_test.robot">
+		<item key="activePage" value=""/>
+	</section>
 </section>
